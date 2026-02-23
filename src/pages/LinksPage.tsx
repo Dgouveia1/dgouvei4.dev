@@ -8,9 +8,9 @@ const LinksPage: React.FC = () => {
   return (
     <Layout hideHeader hideFooter>
       <div className="min-h-[80vh] flex flex-col items-center justify-center max-w-md mx-auto w-full py-12 px-4">
-        
+
         {/* Profile Header */}
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
@@ -19,14 +19,14 @@ const LinksPage: React.FC = () => {
           <div className="relative mb-6 group">
             <div className="absolute -inset-1 bg-gradient-to-r from-cyan-500 to-emerald-500 rounded-full blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
             <div className="relative w-32 h-32 rounded-full overflow-hidden border-4 border-[#09090B] bg-zinc-800">
-              <img 
-                src="photos/dgouvei4.png" 
-                alt="Davi Gouveia" 
+              <img
+                src="/photos/dgouvei4.png"
+                alt="Davi Gouveia"
                 className="w-full h-full object-cover"
               />
             </div>
           </div>
-          
+
           <h1 className="text-2xl font-bold text-white mb-2">@dgouveia.dev</h1>
           <p className="text-gray-400 text-sm max-w-xs">
             Automação & BI. Faço a tecnologia trabalhar por você.
@@ -34,7 +34,7 @@ const LinksPage: React.FC = () => {
         </motion.div>
 
         {/* Links Stack */}
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2, duration: 0.5 }}
@@ -47,7 +47,7 @@ const LinksPage: React.FC = () => {
             variant="secondary"
             className="w-full bg-emerald-600 hover:bg-emerald-500 border-emerald-500/50"
           />
-          
+
           <LinkButton
             href="/"
             label="Acesse meu Portfólio"
@@ -55,7 +55,7 @@ const LinksPage: React.FC = () => {
             variant="outline"
             className="w-full"
           />
-          
+
           <LinkButton
             href="https://instagram.com/dgouveia.dev"
             label="Instagram (@dgouveia.dev)"
@@ -63,7 +63,7 @@ const LinksPage: React.FC = () => {
             variant="outline"
             className="w-full hover:border-pink-500/50 hover:text-pink-400"
           />
-          
+
           <LinkButton
             href="https://tiktok.com/@dgouvei4.dev"
             label="TikTok (@dgouvei4.dev)"
@@ -74,7 +74,7 @@ const LinksPage: React.FC = () => {
         </motion.div>
 
         {/* Footer Note */}
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.5 }}
