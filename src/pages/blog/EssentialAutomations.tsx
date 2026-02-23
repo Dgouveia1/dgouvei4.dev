@@ -63,9 +63,9 @@ const EssentialAutomationsPage: React.FC = () => {
                                 <div>
                                     <h3 className="text-xl font-bold text-white mb-2 flex items-center gap-2">
                                         <Database className="w-5 h-5 text-purple-400" />
-                                        Entrada de Leads no CRM
+                                        Salvar Contatos Automaticamente
                                     </h3>
-                                    <p className="text-gray-400">Não adicione leads manualmente na sua planilha ou CRM. Conecte os forms do seu site, Facebook Ads e Typeform diretamente ao Pipedrive, ActiveCampaign ou HubSpot usando Webhooks no n8n.</p>
+                                    <p className="text-gray-400">Sua equipe não precisa digitar o nome e telefone de cada novo cliente. Quando alguém preenche um formulário no seu site ou anúncio, o sistema salva tudo na sua planilha de vendas na mesma hora.</p>
                                 </div>
                             </div>
 
@@ -78,9 +78,9 @@ const EssentialAutomationsPage: React.FC = () => {
                                 <div>
                                     <h3 className="text-xl font-bold text-white mb-2 flex items-center gap-2">
                                         <Workflow className="w-5 h-5 text-purple-400" />
-                                        Geração de Contratos Automáticos
+                                        Gerar Contratos na Hora
                                     </h3>
-                                    <p className="text-gray-400">Quando a venda for "Ganha", uma automação deve preencher os dados do cliente em um template (Google Docs) e enviar para assinatura digital via ClickSign ou DocuSign automaticamente.</p>
+                                    <p className="text-gray-400">Assim que a venda é fechada, o sistema preenche todos os dados do cliente no modelo de contrato e envia direto para o WhatsApp dele assinar pelo celular.</p>
                                 </div>
                             </div>
 
@@ -93,16 +93,16 @@ const EssentialAutomationsPage: React.FC = () => {
                                 <div>
                                     <h3 className="text-xl font-bold text-white mb-2 flex items-center gap-2">
                                         <Zap className="w-5 h-5 text-purple-400" />
-                                        Mensagens de Boas-vindas (Onboarding)
+                                        Recepção Perfeita do Cliente
                                     </h3>
-                                    <p className="text-gray-400">O cliente pagou? O envio de nota fiscal, acessos de plataforma e mensagem amigável de boas-vindas no WhatsApp precisa acontecer em segundos, não horas.</p>
+                                    <p className="text-gray-400">O cliente pagou? O envio do recibo e a mensagem de boas-vindas no WhatsApp precisam acontecer na mesma hora, com clareza e de forma automática, sem você precisar lembrar de mandar.</p>
                                 </div>
                             </div>
                         </div>
 
-                        <h2 className="text-2xl font-bold text-white mb-4">A Ferramenta Certa: n8n</h2>
+                        <h2 className="text-2xl font-bold text-white mb-4">Tecnologia Invisível</h2>
                         <p className="text-gray-300 leading-relaxed mb-6">
-                            Para escalar automações sem custos astronômicos, utilizo o <strong>n8n</strong> (node-based automation). Diferente do Zapier, ele permite hospedar a ferramenta em infraestrutura própria, garantindo privacidade de dados e custo ZERO por execuções.
+                            Você não precisa entender de códigos complicados. Nós configuramos ferramentas de bastidores seguras que conectam todos os seus aplicativos, fazendo com que sua empresa funcione como um relógio perfeito sem que você precise se preocupar com a parte técnica.
                         </p>
                     </div>
                 </article>

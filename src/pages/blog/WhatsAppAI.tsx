@@ -37,7 +37,7 @@ const WhatsAppAIPage: React.FC = () => {
             </h1>
 
             <p className="text-xl text-gray-400 leading-relaxed">
-              Descubra como agentes de IA podem qualificar leads 24/7 sem parecer robôs, aumentando sua conversão drasticamente.
+              Descubra como um robô inteligente pode atender seus clientes 24h por dia, sem parecer artificial, aumentando suas vendas.
             </p>
           </header>
 
@@ -52,10 +52,10 @@ const WhatsAppAIPage: React.FC = () => {
           <div className="prose prose-invert prose-cyan max-w-none">
             <h2 className="text-2xl font-bold text-white mb-4 mt-8">O Fim do Atendimento Engessado</h2>
             <p className="text-gray-300 leading-relaxed mb-6">
-              Por muito tempo, a automação no WhatsApp significava menus irritantes de opções numéricas: "Digite 1 para vendas, 2 para suporte". Isso não é mais automação, é frustração.
+              Por muito tempo, a automação no WhatsApp significava menus irritantes numéricos: "Digite 1 para vendas, 2 para suporte". Isso não é automação, é frustração.
             </p>
             <p className="text-gray-300 leading-relaxed mb-6">
-              Com o avanço dos LLMs (Large Language Models) integrados a fluxos como n8n ou Typebot, a dinâmica mudou completamente. Agora, os agentes de IA conseguem interpretar intenções complexas, extrair dados em linguagem natural e responder de forma conversacional e humanizada.
+              Com a Inteligência Artificial, a dinâmica mudou por completo. Agora, o robô entende exatamente o que o cliente quer, bate um papo de forma natural (como se fosse um humano) e anota os dados essenciais para fechar a venda.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 my-10">
@@ -76,19 +76,19 @@ const WhatsAppAIPage: React.FC = () => {
               </div>
             </div>
 
-            <h2 className="text-2xl font-bold text-white mb-4">Como Implementar na Prática?</h2>
+            <h2 className="text-2xl font-bold text-white mb-4">Como isso ajuda seu negócio?</h2>
             <p className="text-gray-300 leading-relaxed mb-6">
-              O segredo de uma boa implementação não é apenas plugar o ChatGPT ao provedor da API do WhatsApp. É construir a <strong>Arquitetura da Informação</strong>.
+              O segredo não é apenas colocar um robô copiando o ChatGPT. É treinar essa ferramenta para conhecer a sua empresa como se fosse o seu melhor funcionário.
             </p>
             <ul className="list-disc list-inside text-gray-300 mb-8 space-y-2">
-              <li><strong>RAG (Retrieval-Augmented Generation):</strong> Conectar a IA à base de conhecimento da sua empresa.</li>
-              <li><strong>Fine-tuning de Prompts:</strong> Definir o tom de voz e as restrições (o que a IA NÃO deve falar).</li>
-              <li><strong>Integração com CRM:</strong> Gravar os dados do lead automaticamente sem intervenção humana.</li>
+              <li><strong>O Robô lê seus documentos:</strong> Ela responde o cliente com base nos preços e nas regras exatas da sua empresa.</li>
+              <li><strong>Tom de voz humano:</strong> O sistema recebe um padrão para conversar com o "jeitinho" da sua marca.</li>
+              <li><strong>Fim de planilhas manuais:</strong> A IA pega o contato do cliente e já salva no seu painel de vendas sozinha.</li>
             </ul>
 
             <div className="bg-gradient-to-r from-cyan-900/30 to-emerald-900/30 p-8 rounded-2xl border border-cyan-500/20 mt-12 text-center">
               <h3 className="text-2xl font-bold text-white mb-4">Quer aplicar isso no seu negócio?</h3>
-              <p className="text-gray-300 mb-6">Agende uma consultoria técnica e descubra o impacto da IA nas suas vendas.</p>
+              <p className="text-gray-300 mb-6">Vamos bater um papo rápido e descobrir como a IA pode aumentar as suas vendas hoje mesmo.</p>
               <a
                 href="https://wa.me/5517981112074"
                 target="_blank"

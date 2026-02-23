@@ -60,7 +60,7 @@ const LandingPage: React.FC = () => {
                 </h1>
 
                 <p className="text-lg md:text-2xl text-gray-400 max-w-2xl leading-relaxed mb-10 border-l-2 border-cyan-500/50 pl-6">
-                  Transformo processos complexos em <span className="text-white font-medium">código limpo</span> e dados brutos em <span className="text-white font-medium">lucro previsível</span>.
+                  Faço a sua empresa <span className="text-white font-medium">vender mais</span> e conecto suas ferramentas para <span className="text-white font-medium">trabalharem por você</span>.
                 </p>
 
                 <div className="flex flex-col sm:flex-row gap-4">
@@ -111,29 +111,29 @@ const LandingPage: React.FC = () => {
 
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <BentoCard
-                  title="Automação Inteligente"
-                  description="Robôs que trabalham enquanto você dorme. Eliminação de tarefas manuais com n8n e Python."
+                  title="Robôs Trabalhando por Você"
+                  description="Sistemas automáticos que cuidam do trabalho chato para sua equipe focar em vender."
                   icon={<Workflow className="w-6 h-6" />}
                   className="md:col-span-2"
                   delay={0.1}
                 />
                 <BentoCard
-                  title="Business Intelligence"
-                  description="Dashboards em tempo real. Transforme intuição em decisão baseada em dados."
+                  title="Painéis Financeiros"
+                  description="Acompanhe todo o seu lucro e vendas em tempo real de forma simples e visual."
                   icon={<BarChart3 className="w-6 h-6" />}
                   className="md:col-span-1 bg-gradient-to-br from-cyan-900/20 to-transparent"
                   delay={0.2}
                 />
                 <BentoCard
-                  title="Full Stack Dev"
-                  description="Aplicações web robustas com React, Node.js e arquitetura serverless."
+                  title="Sistemas e Plataformas"
+                  description="Criamos sites e sistemas sob medida, focados na experiência do seu cliente."
                   icon={<Code2 className="w-6 h-6" />}
                   className="md:col-span-1"
                   delay={0.3}
                 />
                 <BentoCard
-                  title="Integração de Sistemas"
-                  description="Conecte seu CRM, ERP e Marketing em um ecossistema único e fluido."
+                  title="Conectamos suas Ferramentas"
+                  description="Fazemos seu WhatsApp, planilhas e sistemas conversarem entre si."
                   icon={<Network className="w-6 h-6" />}
                   className="md:col-span-2"
                   delay={0.4}
@@ -187,19 +187,19 @@ const LandingPage: React.FC = () => {
             <section id="stack" className="py-24 relative z-10 border-t border-white/5">
               <div className="mb-12">
                 <h2 className="text-2xl font-mono text-cyan-500 mb-8">
-                  &gt; SYSTEM_CAPABILITIES
+                  &gt; ECOSSISTEMA
                 </h2>
                 <div className="flex flex-wrap gap-3">
-                  <TechBadge name="WhatsApp API" icon={<MessageSquare className="w-4 h-4" />} />
-                  <TechBadge name="n8n" icon={<Workflow className="w-4 h-4" />} />
-                  <TechBadge name="Supabase" icon={<Database className="w-4 h-4" />} />
-                  <TechBadge name="AWS Lambda" icon={<Cloud className="w-4 h-4" />} />
-                  <TechBadge name="Google Cloud" icon={<Cloud className="w-4 h-4" />} />
+                  <TechBadge name="WhatsApp Biz" icon={<MessageSquare className="w-4 h-4" />} />
+                  <TechBadge name="Google Drive" icon={<Cloud className="w-4 h-4" />} />
+                  <TechBadge name="Planilhas" icon={<Database className="w-4 h-4" />} />
                   <TechBadge name="Power BI" icon={<BarChart3 className="w-4 h-4" />} />
-                  <TechBadge name="React" icon={<Cpu className="w-4 h-4" />} />
-                  <TechBadge name="Node.js" icon={<Terminal className="w-4 h-4" />} />
-                  <TechBadge name="Python" icon={<Code2 className="w-4 h-4" />} />
-                  <TechBadge name="Next.js" icon={<Zap className="w-4 h-4" />} />
+                  <TechBadge name="Sistemas CRM" icon={<Workflow className="w-4 h-4" />} />
+                  <TechBadge name="IA" icon={<Cpu className="w-4 h-4" />} />
+                  <TechBadge name="Sites Seguros" icon={<Code2 className="w-4 h-4" />} />
+                  <TechBadge name="Pagamentos" icon={<Zap className="w-4 h-4" />} />
+                  <TechBadge name="Redes Sociais" icon={<Network className="w-4 h-4" />} />
+                  <TechBadge name="Formulários" icon={<Terminal className="w-4 h-4" />} />
                 </div>
               </div>
             </section>
@@ -301,10 +301,10 @@ const LandingPage: React.FC = () => {
                 <div className="absolute bottom-0 right-0 w-24 h-24 border-b-2 border-r-2 border-cyan-500/20"></div>
 
                 <h2 className="text-4xl md:text-6xl font-bold text-white mb-6 tracking-tighter">
-                  READY TO <span className="text-cyan-500">DEPLOY?</span>
+                  PRONTO PARA <span className="text-cyan-500">CRESCER?</span>
                 </h2>
                 <p className="text-gray-400 mb-10 max-w-2xl mx-auto text-lg">
-                  Sua operação merece rodar na velocidade máxima. Vamos agendar uma análise técnica do seu cenário atual.
+                  Sua equipe merece parar de perder tempo. Vamos bater um papo rápido para entender como posso te ajudar.
                 </p>
 
                 <Button

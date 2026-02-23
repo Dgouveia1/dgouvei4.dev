@@ -51,40 +51,40 @@ const CRMMetricsPage: React.FC = () => {
                     <div className="prose prose-invert prose-emerald max-w-none">
                         <h2 className="text-2xl font-bold text-white mb-4">Você está cego no seu próprio negócio?</h2>
                         <p className="text-gray-300 leading-relaxed mb-6">
-                            Ter um CRM cheio de dados, não significa ter inteligência comercial (Revenue Intelligence). Se no final do mês você precisa exportar Excel, fazer tabela dinâmica e perder 3 dias para saber "quem vendeu mais e qual foi o Custo de Aquisição", você está preso no tempo.
+                            Ter um sistema cheio de cadastro de clientes não significa ter controle das vendas. Se no final do mês você precisa caçar papéis, olhar cadernos ou perder 3 dias montando planilhas para descobrir "quem vendeu mais e quanto gastamos", você está perdendo tempo e dinheiro.
                         </p>
 
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 my-10">
                             <div className="bg-gradient-to-br from-emerald-900/10 to-transparent p-6 rounded-xl border border-emerald-500/20">
                                 <TrendingUp className="w-8 h-8 text-emerald-500 mb-4" />
-                                <h3 className="text-lg font-bold text-white mb-2">Taxa de Conversão por Etapa</h3>
+                                <h3 className="text-lg font-bold text-white mb-2">Onde os Clientes Desistem?</h3>
                                 <p className="text-sm text-gray-400">
-                                    Onde os leads desistem? Acompanhar a conversão de "Lead" para "Reunião Agendada", e depois para "Venda Fechada" mostra exatamente o gargalo da operação.
+                                    Acompanhar quantos contatos viram "Reunião Agendada", e quantos da reunião viraram "Venda Fechada" mostra exatamente onde sua equipe está perdendo o negócio.
                                 </p>
                             </div>
 
                             <div className="bg-gradient-to-br from-emerald-900/10 to-transparent p-6 rounded-xl border border-emerald-500/20">
                                 <BarChart3 className="w-8 h-8 text-emerald-500 mb-4" />
-                                <h3 className="text-lg font-bold text-white mb-2">Ciclo de Vendas (Time to Win)</h3>
+                                <h3 className="text-lg font-bold text-white mb-2">Velocidade da Venda</h3>
                                 <p className="text-sm text-gray-400">
-                                    Quanto tempo leva desde o primeiro contato até a assinatura? Entender essa métrica ajuda a prever o fluxo de caixa para os próximos meses com exatidão.
+                                    Quanto tempo leva desde a primeira mensagem no WhatsApp até o pagamento? Entender isso ajuda a saber na ponta do lápis com quanto dinheiro você vai poder contar.
                                 </p>
                             </div>
                         </div>
 
-                        <h2 className="text-2xl font-bold text-white mb-4 mt-8">Do CRM Analógico ao Dashboard B.I.</h2>
+                        <h2 className="text-2xl font-bold text-white mb-4 mt-8">Da Planilha Confusa à Visão Clara</h2>
                         <p className="text-gray-300 leading-relaxed mb-6">
-                            A mágica acontece quando integramos o CRM (Pipedrive, HubSpot, Exact Sales) com ferramentas como o <strong className="text-white">Power BI</strong> ou <strong className="text-white">Looker Studio</strong>.
+                            A mágica acontece quando integramos todas as suas ferramentas de vendas em um <strong>Painel Visual (Dashboard)</strong> central e automático.
                         </p>
                         <p className="text-gray-300 leading-relaxed mb-8">
-                            Visualizar dados em tempo real permite entender nuances como: "Vendedores performam pior às sextas-feiras?" ou "Leads que vêm do Instagram fecham contrato mais rápido que leads do Google?".
+                            Visualizar dados na mesma hora, numa tela limpa, permite descobrir coisas como: "Vendedores vendem menos de sexta-feira?" ou "Clientes que vêm do Instagram fecham negócio mais rápido que clientes do Google?".
                         </p>
 
                         <div className="flex items-center gap-6 bg-white/5 p-6 rounded-xl border border-white/10 mb-8">
                             <Presentation className="w-12 h-12 text-emerald-400 flex-shrink-0" />
                             <div>
-                                <h4 className="text-lg font-bold text-white">Visualização Preditiva</h4>
-                                <p className="text-sm text-gray-400 mt-1">Ao cruzar as taxas de fechamento histórico com seu pipeline atual, o dashboard de BI consegue prever seu faturamento de forma autônoma.</p>
+                                <h4 className="text-lg font-bold text-white">Prever o Futuro Financeiro</h4>
+                                <p className="text-sm text-gray-400 mt-1">O sistema soma as negociações abertas no momento com a sua média de fechamentos, avisando de forma inteligente o quanto de dinheiro deve entrar até o final do mês.</p>
                             </div>
                         </div>
 
